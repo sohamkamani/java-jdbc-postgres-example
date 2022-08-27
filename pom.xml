@@ -4,12 +4,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.sohamkamani</groupId>
-  <artifactId>{PROJECTDIR}</artifactId>
+  <artifactId>java-jdbc-postgres-example</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>{PROJECTDIR}</name>
+  <name>java-jdbc-postgres-example</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://github.com/sohamkamani/{PROJECTDIR}</url>
+  <url>http://github.com/sohamkamani/java-jdbc-postgres-example</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,13 +25,13 @@
       <scope>test</scope>
     </dependency>
     <!-- We can add additional dependencies here -->
+    <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
     <dependency>
-      <groupId>com.github.ricksbrown</groupId>
-      <artifactId>cowsay</artifactId>
-      <version>1.1.0</version>
-      <!-- The "lib" classifier is optional, but it gives you a MUCH smaller jar which is all you need as a Java library -->
-      <classifier>lib</classifier>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.4.1</version>
     </dependency>
+
   </dependencies>
 
   <build>
