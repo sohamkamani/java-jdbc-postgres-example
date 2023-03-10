@@ -1,6 +1,6 @@
 # Java JDBC Postgres Example
 
-This is the example repo for my blog post on [Java JDBC Postgres Example](https://www.sohamkamani.com/java/jdbc-postgres)
+This is the example repo for my blog post on [Java JDBC Postgres Example](https://www.sohamkamani.com/java/jdbc-postgresql)
 
 To run this example:
 
